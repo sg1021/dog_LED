@@ -8,6 +8,7 @@ void setup() {
 }
 
 
+
 void loop() {
     while(Serial.available() > 0){ //受け取った命令dataがあるとき        
         command = Serial.read(); //命令データは何なのかを読み込む
