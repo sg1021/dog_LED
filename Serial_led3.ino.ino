@@ -30,6 +30,22 @@ void loop() {
         delay(1000);
         digitalWrite(led,HIGH);
         delay(3000);
+      }else if(command == 'c'){
+        set();
+        digitalWrite(led,HIGH);
+        delay(1000);
+        digitalWrite(led,LOW);
+        delay(3000);
+        digitalWrite(led,HIGH);
+        delay(1000);
+      }else if(command == 'd'){
+        set();
+        digitalWrite(led,HIGH);
+        delay(3000);
+        digitalWrite(led,LOW);
+        delay(1000);
+        digitalWrite(led,HIGH);
+        delay(3000);
       }
     }
 }
